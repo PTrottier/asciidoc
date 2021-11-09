@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-sudo apt-get -q update && \
+RUN sudo apt-get -q update && \
     sudo apt-get install -yq asciidoc && \
     sudo gem install asciidoctor && \
     sudo gem install asciidoctor-pdf && \
